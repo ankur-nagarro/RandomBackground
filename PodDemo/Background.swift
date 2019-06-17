@@ -8,10 +8,10 @@
 
 import UIKit
 
-class Background: UIView {
+public class Background: UIView {
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
     
-    override init(frame: CGRect) {
+   public override init(frame: CGRect) {
         super.init(frame: frame)
         changeColor()
     }
