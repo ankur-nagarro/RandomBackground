@@ -12,6 +12,7 @@
 		16C6BE7522B792B000FBF940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C6BE7322B792B000FBF940 /* Main.storyboard */; };
 		16C6BE7722B792B200FBF940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C6BE7622B792B200FBF940 /* Assets.xcassets */; };
 		16C6BE7A22B792B200FBF940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C6BE7822B792B200FBF940 /* LaunchScreen.storyboard */; };
+		16C6BE8222B792F100FBF940 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6BE8122B792F100FBF940 /* Background.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		16C6BE7622B792B200FBF940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16C6BE7922B792B200FBF940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16C6BE7B22B792B200FBF940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C6BE8122B792F100FBF940 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				16C6BE6F22B792B000FBF940 /* AppDelegate.swift */,
 				16C6BE7122B792B000FBF940 /* ViewController.swift */,
+				16C6BE8122B792F100FBF940 /* Background.swift */,
 				16C6BE7322B792B000FBF940 /* Main.storyboard */,
 				16C6BE7622B792B200FBF940 /* Assets.xcassets */,
 				16C6BE7822B792B200FBF940 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				16C6BE7222B792B000FBF940 /* ViewController.swift in Sources */,
 				16C6BE7022B792B000FBF940 /* AppDelegate.swift in Sources */,
+				16C6BE8222B792F100FBF940 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
