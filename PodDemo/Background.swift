@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RxSwift
 
 public class Background: UIView {
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
@@ -27,5 +28,8 @@ public class Background: UIView {
             }
         }
         scheduledColorChanged.fire()
+        
+        let rxError = RxError.overflow
+        print("This is rx error \(rxError.localizedDescription)")
     }
 }

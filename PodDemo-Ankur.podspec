@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodDemo-Ankur'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
   s.description      = <<-DESC
 This fantastic view changes its color gradually makes your app look fantastic!
