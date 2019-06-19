@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
 
@@ -16,6 +17,9 @@ class ViewController: UIViewController {
         let fantasticView = Background(frame: self.view.bounds)
         
         self.view.addSubview(fantasticView)
+        
+        let rxError = RxError.overflow
+        print("This is rx error \(rxError.localizedDescription)")
     }
 
 
