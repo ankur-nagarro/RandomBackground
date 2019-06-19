@@ -30,8 +30,6 @@ public class Background: UIView {
         scheduledColorChanged.fire()
         
         let rxError = RxError.overflow
-        print("This is rx error \(rxError.localizedDescription)")
-        
         let label = UILabel(frame: self.frame)
         label.textAlignment = .center
         label.numberOfLines = 0
